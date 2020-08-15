@@ -1,5 +1,7 @@
 # Minimal cmake boilerplate
 
+## Installation
+
 Install [clangd](https://clangd.llvm.org/installation.html).
 
 `mkdir` `build` folder. `cd` into `build` folder and run

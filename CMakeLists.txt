@@ -3,5 +3,5 @@ project (boilerplate)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_executable(main src/main.cpp)
+add_executable(main Source/Main.cpp)
 target_include_directories(main PUBLIC src)
