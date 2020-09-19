@@ -12,7 +12,7 @@ make
 ./main
 ```
 
-`compile_commands.json` will be written to `build` directory. Symlink it (or simply copy it) to the root of source tree: `cd` to the root and
+`compile_commands.json` will be created in `build` directory. Symlink it (or simply copy it) to the root directory. To symlink it, `cd` to the root and
 
 ```
 ln -s build/compile_commands.json .
