@@ -6,7 +6,7 @@
     {
       "label": "build_release",
       "type": "shell",
-      "command": "cd build; & 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/amd64/MSBuild.exe' -target:'Build' /property:Configuration=Release ./boilerplate.sln; ./Release/main.exe",
+      "command": "cd build; & 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/amd64/MSBuild.exe' -target:'Build' /property:Configuration=Release ./boilerplate.sln; cd ../bin/Release; ./main.exe",
       "problemMatcher": [],
       "group": {
         "kind": "build",

@@ -1,3 +1,7 @@
 build/
+bin/
+lib/
+ninja/
+.cache/
 compile_commands.json
 .clangd
